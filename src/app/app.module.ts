@@ -1,4 +1,4 @@
-
+import { CoursesComponent } from './courses.component';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -10,7 +10,7 @@ import { CourseComponent } from './course/course.component';
   declarations: [
     AppComponent,
     CourseComponent,
-    
+    CoursesComponent
   ],
   imports: [
     BrowserModule
